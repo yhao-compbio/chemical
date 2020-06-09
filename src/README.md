@@ -14,14 +14,14 @@
  
 ## Executable shell scripts
 
-+ [`run/search_compound_sdf_offsides.sh`]()
++ [`run/search_compound_sdf_offsides.sh`](run/search_compound_sdf_offsides.sh) runs [`search_compound_sdf.py`](search_compound_sdf.py) on compounds from OFFSIDES.
 
-+ [`run/run_compute_descriptors_offsides.sh`](run/run_compute_descriptors_offsides.sh) and [`run/run_compute_fingerprints_offsides.sh`](run/run_compute_fingerprints_offsides.sh) run [`run_compute_descriptors.R`](run_compute_descriptors.R) and [`run_compute_fingerprints.R`](run_compute_fingerprints.R), respectively, on the OFFSIDES dataset.  
++ [`run/run_compute_descriptors_offsides.sh`](run/run_compute_descriptors_offsides.sh) and [`run/run_compute_fingerprints_offsides.sh`](run/run_compute_fingerprints_offsides.sh) run [`run_compute_descriptors.R`](run_compute_descriptors.R) and [`run_compute_fingerprints.R`](run_compute_fingerprints.R), respectively, on compounds from OFFSIDES. 
 
-+ [`run/compute_descriptors_offsides.sh`](run/compute_descriptors_offsides.sh) and [`run/compute_fingerprints_offsides.sh`](run/compute_fingerprints_offsides.sh) run [`compute_descriptors.R`](compute_descriptors.R) and [`compute_fingerprints.R`](compute_fingerprints.R), respectively, on the OFFSIDES dataset. 
++ [`run/compute_descriptors_offsides.sh`](run/compute_descriptors_offsides.sh) and [`run/compute_fingerprints_offsides.sh`](run/compute_fingerprints_offsides.sh) run [`compute_descriptors.R`](compute_descriptors.R) and [`compute_fingerprints.R`](compute_fingerprints.R), respectively, on compounds from OFFSIDES.
 
-+ [`run/collect_compound_descriptors_offsides.sh`](run/collect_compound_descriptors_offsides.sh) and [`run/collect_compound_fingerprints_offsides.sh`](run/collect_compound_fingerprints_offsides.sh) run [`collect_compound_descriptors.R`](collect_compound_descriptors.R) and [`collect_compound_fingerprints.R`](collect_compound_fingerprints.R), respectively, on the OFFSIDES dataset.
++ [`run/collect_compound_descriptors_offsides.sh`](run/collect_compound_descriptors_offsides.sh) and [`run/collect_compound_fingerprints_offsides.sh`](run/collect_compound_fingerprints_offsides.sh) run [`collect_compound_descriptors.R`](collect_compound_descriptors.R) and [`collect_compound_fingerprints.R`](collect_compound_fingerprints.R), respectively, on compounds from OFFSIDES.
 
-+ [`run/combine_descriptors_offsides.sh`](run/combine_descriptors_offsides.sh) runs [`combine_descriptors.R`](combine_descriptors.R) on the OFFSIDES dataset.
++ [`run/combine_descriptors_offsides.sh`](run/combine_descriptors_offsides.sh) runs [`combine_descriptors.R`](combine_descriptors.R) on compounds from OFFSIDES.
 
 

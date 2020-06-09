@@ -1,0 +1,6 @@
+module add R
+Rscript	src/collect_compound_descriptors.R	data/offsides_compounds/descriptor/	constitutional	data/offsides_compounds/descriptor_combined/offsides_compounds	&
+Rscript	src/collect_compound_descriptors.R	data/offsides_compounds/descriptor/	electronic	data/offsides_compounds/descriptor_combined/offsides_compounds	&
+Rscript	src/collect_compound_descriptors.R	data/offsides_compounds/descriptor/	geometrical	data/offsides_compounds/descriptor_combined/offsides_compounds	&
+Rscript	src/collect_compound_descriptors.R	data/offsides_compounds/descriptor/	hybrid	data/offsides_compounds/descriptor_combined/offsides_compounds	&
+Rscript	src/collect_compound_descriptors.R	data/offsides_compounds/descriptor/	topological	data/offsides_compounds/descriptor_combined/offsides_compounds	&

@@ -1,0 +1,11 @@
+module add R
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	circular	data/offsides_compounds/fingerprint_combined/offsides_compounds	&
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	estate	data/offsides_compounds/fingerprint_combined/offsides_compounds	&
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	extended	data/offsides_compounds/fingerprint_combined/offsides_compounds	&
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	graph	data/offsides_compounds/fingerprint_combined/offsides_compounds	&
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	hybridization	data/offsides_compounds/fingerprint_combined/offsides_compounds	&
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	kr	data/offsides_compounds/fingerprint_combined/offsides_compounds	&
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	maccs	data/offsides_compounds/fingerprint_combined/offsides_compounds	&
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	pubchem	data/offsides_compounds/fingerprint_combined/offsides_compounds	&
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	shortestpath	data/offsides_compounds/fingerprint_combined/offsides_compounds	&
+Rscript	src/collect_compound_fingerprints.R	data/offsides_compounds/fingerprint/	standard	data/offsides_compounds/fingerprint_combined/offsides_compounds	&

@@ -1,0 +1,2 @@
+module add R
+Rscript	src/combine_descriptors.R	data/offsides_compounds/descriptor_combined/offsides_compounds_descriptor_files.txt	0.5	data/offsides_compounds/descriptor_combined/offsides_compounds_descriptor_all.tsv
