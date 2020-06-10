@@ -8,7 +8,7 @@
 
 + [`parse_bindingdb_targets.R`](parse_bindingdb_targets.R) parses raw BindingDB data to obtain compound-target binding affinities. 
 
-+ [`compute_descriptors.R`](compute_descriptors.R) and [`compute_fingerprints.R`](compute_fingerprints.R) compute molecular descriptors and chemical fingerprints, respectively. [`run_compute_descriptors.R`](run_compute_descriptors.R) and [`run_compute_fingerprints.R`](run_compute_fingerprints.R) generate shell scripts that run the two above scripts. 
++ [`compute_descriptors.R`](compute_descriptors.R) and [`compute_fingerprints.R`](compute_fingerprints.R) compute molecular descriptors and chemical fingerprints, respectively. Specifically, five types of molecular descriptors and ten types of chemical fingerprints are compulted in the two scripts. For detailed information about these chemical properties, please check [RCDK package](https://cran.r-project.org/web/packages/rcdk/rcdk.pdf). [`run_compute_descriptors.R`](run_compute_descriptors.R) and [`run_compute_fingerprints.R`](run_compute_fingerprints.R) generate shell scripts that run the two above scripts. 
 
 + [`collect_compound_descriptors.R`](collect_compound_descriptors.R) and [`collect_compound_fingerprints.R`](collect_compound_fingerprints.R) collect computed molecular descriptors and chemical fingerprints, respectively, from multiple compounds. 
 
