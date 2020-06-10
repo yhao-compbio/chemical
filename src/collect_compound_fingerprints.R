@@ -3,7 +3,7 @@
 # This script collects calculated chemical fingerprints from multiple compounds.
 
 # 0. Input arguments
-Args <- commandArgs(T);
+Args		<- commandArgs(T);
 input_folder	<- Args[1];	# input folder of all fingerprint files
 feature_type	<- Args[2];	# fingerprint type 
 output_folder	<- Args[3];	# output folder

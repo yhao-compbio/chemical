@@ -6,7 +6,7 @@
 source("src/functions.R");
 
 ## 0. Input arguments
-Args <- commandArgs(T);
+Args		<- commandArgs(T);
 combine_input	<- Args[1];	# name of input file that specifies molecular descriptor files to be combined, along with the descriptor types
 na_ratio	<- Args[2];	# lower bound of the proportion of NA's for a descriptor to be removed  
 combine_output	<- Args[3];	# name of output file  

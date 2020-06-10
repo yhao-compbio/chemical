@@ -6,7 +6,7 @@
 library(rcdk);
 
 ## 0. Input arguments
-Args <- commandArgs(T);
+Args		<- commandArgs(T);
 sdf_file	<- Args[1];	# input SDF file
 output_file	<- Args[2];	# output file
 

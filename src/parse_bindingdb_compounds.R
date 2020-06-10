@@ -6,7 +6,7 @@
 library(parallel);
 
 ## 0. Input arguments 
-Args <- commandArgs(T);
+Args		<- commandArgs(T);
 dimension	<- Args[1];     # 2D/3D
 
 ## 1. Read in BindingDB

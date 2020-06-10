@@ -6,7 +6,7 @@
 source("src/functions.R");
 
 ## 0. Input arguments
-Args <- commandArgs(T);
+Args			<- commandArgs(T);
 job_name		<- Args[1];	# name of output shell scripts
 sdf_file_folder		<- Args[2];	# folder of SDF file 
 output_file_folder	<- Args[3];	# output folder

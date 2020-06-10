@@ -6,7 +6,7 @@
 library(rcdk);
 
 ## 0. Input arguments
-Args <- commandArgs(T);
+Args		<- commandArgs(T);
 input_folder	<- Args[1];	# input folder of all descriptor files
 feature_type	<- Args[2];	# descriptor type
 output_folder	<- Args[3];	# output folder
