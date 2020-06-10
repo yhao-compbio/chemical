@@ -76,52 +76,6 @@ check.descriptors.quality <- function(file_name, na_prop = 0.5){
 }
 
 ##
-extract.binding.affinity <- function(full_data, data_col, data_type, min_N_sample, out_fd){
-	
-	# missing ligand/target name
-	target_names <- as.character(full_data$target_uniprot_id);
-	nna_id <- which(target_names != "");
-	full_data <- full_data[nna_id,];
-	data_col <- data_col[nna_id];
-	ligand_names <- as.character(full_data$ligand_bindingdb_id);
-	nna_id <- which(ligand_names != "");
-	full_data <- full_data[nna_id,];
-	data_col <- data_col[nna_id];
-
-	# missing/irregular measurements
-	data_col <- as.character(data_col);
-	num_col <- as.numeric(data_col);
-	nna_id <- which(is.na(num_col) == F);
-	full_data <- full_data[nna_id,];	
-	num_col <- num_col[nna_id];
-
-	# 
-	nzero_id <- which(num_col != 0);
-	full_data <- full_data[nzero_id,];
-	num_col <- num_col[nzero_id];
-	p_num <- -log(num_col, base = 10) + 9;
-
-	#
-	all_targets <- as.character(full_data$target_uniprot_id);
-	at_table <- table(all_targets);
-	at_id <- which(at_table >= min_N_sample);
-	op_cols <- c(colnames(full_data), data_type);
-	target_ligands <- lapply(names(at_table)[at_id], function(atai){
-		atai_id <- which(all_targets == atai);
-		atai_df <- cbind(full_data[atai_id,], p_num[atai_id]);
-		colnames(atai_df) <- op_cols;
-		op_name <- paste(out_fd, "BindingDB_", atai, "_", data_type, ".tsv", sep = "");
-		write.table(atai_df, op_name, sep = "\t", quote = F, row.names = F, col.names = T);
-		return(as.character(atai_df$ligand_bindingdb_id));
-	});
-	
-	# ligand stats
-	all_ligands <- unlist(target_ligands);
-	all_ligands <- unique(all_ligands);
-	return(all_ligands);
-}
-
-##
 combine.feature.binding <- function(feature_mat, binding_file, min_Ns, op_file){
 	
 	# read in binding file 

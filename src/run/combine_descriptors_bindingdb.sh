@@ -1,0 +1,2 @@
+module add R
+Rscript	src/combine_descriptors.R	data/bindingdb_compounds/descriptor_combined/bindingdb_compounds_descriptor_files.txt	0.5	data/bindingdb_compounds/descriptor_combined/bindingdb_compounds_descriptor_all.tsv

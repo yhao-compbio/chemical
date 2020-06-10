@@ -4,4 +4,6 @@
 
 + [`offsides_compounds/descriptor_combined/`](offsides_compounds/descriptor_combined/) and [`offsides_compounds/fingerprint_combined/`](offsides_compounds/fingerprint_combined/) contain combined molecular descriptors and chemical fingerprints, respectively, from multiple compounds. 
 
+## BindingDB
 
++ [`bindingdb_targets/`](bindingdb_targets/) contains compound-target interations from BindingDB, in four types of measurements: [pEC50](bindingdb_targets/bindingdb_human_targets_pEC50.tsv), [pIC50](bindingdb_targets/bindingdb_human_targets_pIC50.tsv), [pKd](bindingdb_targets/bindingdb_human_targets_pKd.tsv), and [pKi](bindingdb_targets/bindingdb_human_targets_pKi.tsv).

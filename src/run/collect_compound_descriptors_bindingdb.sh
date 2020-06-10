@@ -1,0 +1,6 @@
+module add R
+Rscript	src/collect_compound_descriptors.R	data/bindingdb_compounds/descriptor/	constitutional	data/bindingdb_compounds/descriptor_combined/bindingdb_compounds	&
+Rscript	src/collect_compound_descriptors.R	data/bindingdb_compounds/descriptor/	electronic	data/bindingdb_compounds/descriptor_combined/bindingdb_compounds	&
+Rscript	src/collect_compound_descriptors.R	data/bindingdb_compounds/descriptor/	geometrical	data/bindingdb_compounds/descriptor_combined/bindingdb_compounds	&
+Rscript	src/collect_compound_descriptors.R	data/bindingdb_compounds/descriptor/	hybrid	data/bindingdb_compounds/descriptor_combined/bindingdb_compounds	&
+Rscript	src/collect_compound_descriptors.R	data/bindingdb_compounds/descriptor/	topological	data/bindingdb_compounds/descriptor_combined/bindingdb_compounds	&
