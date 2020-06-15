@@ -10,15 +10,15 @@ from chembl_webresource_client.utils import utils
 
 ## Main function 
 def main(argv):
-	## Input argument
+	## 0. Input argument
 		# argv 1: input file that contains compound names 
 		# argv 2: output folder 
 	
-	## 0. Read in all compound names 
+	## 1. Read in all compound names 
 	compound_name = np.loadtxt(argv[1], dtype = 'str', delimiter = '\n')
 	compound_len = len(compound_name)
 	
-	## 1. Search CHEMBL for 2D/3D SDF files
+	## 2. Search CHEMBL for 2D/3D SDF files
 	# set search format (SDF)
 	molecule = new_client.molecule
 	molecule.set_format('sdf')
