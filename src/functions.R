@@ -71,6 +71,10 @@ check.descriptors.quality <- function(file_name, na_prop = 0.5){
         sample_na <- sapply(1:nrow(descriptor_df), function(ndd) sum(is.na(descriptor_df[ndd,])));
         nna_id <- which(sample_na == 0);
         descriptor_df <- descriptor_df[nna_id, ];
-        
+	# remove rows in which Inf's exists 
+	sample_rs <- abs(rowSums(descriptor_df));
+	inf_id <- which(sample_rs != Inf);
+	descriptor_df <- descriptor_df[inf_id, ];	
+	        
 	return(descriptor_df);
 }
