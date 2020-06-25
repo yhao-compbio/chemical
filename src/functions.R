@@ -74,36 +74,3 @@ check.descriptors.quality <- function(file_name, na_prop = 0.5){
         
 	return(descriptor_df);
 }
-
-##
-combine.feature.binding <- function(feature_mat, binding_file, min_Ns, op_file){
-	
-	# read in binding file 
-	binding_df <- read.delim(file = binding_file, header = T, sep = "\t");
-	uni_ligands <- unique(as.character(binding_df$ligand_bindingdb_id));
-	inter_ligands <- intersect(uni_ligands, rownames(feature_mat));
-	
-	#
-	if(length(inter_ligands) >= min_Ns){
-		#
-		inter_feature_mat <- feature_mat[inter_ligands,]
-		sample_na <- sapply(1:nrow(inter_feature_mat), function(nif) sum(is.na(inter_feature_mat[nif,])))
-		nna_id <- which(sample_na == 0)
-		inter_feature_mat <- inter_feature_mat[nna_id, ]	
-		# 
-		if(nrow(inter_feature_mat) >= min_Ns){
-			inter_ligands_affinity <- sapply(rownames(inter_feature_mat), function(il){
-				il_id <- which(binding_df$ligand_bindingdb_id %in% as.numeric(il))
-				affinity <- mean(binding_df[il_id, 4], na.rm = F)
-				return(affinity)
-			})
-			combine_mat <- cbind(inter_feature_mat, inter_ligands_affinity)
-			colnames(combine_mat) <- c(colnames(inter_feature_mat), colnames(binding_df)[[4]])
-			write.table(combine_mat, file = op_file, sep = "\t", row.names = T, col.names = T, quote = F)
-			return(nrow(combine_mat))				
-		}
-		else	return(0)	
-	}
-	else	return(0)
-}
-
