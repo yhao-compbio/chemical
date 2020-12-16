@@ -29,7 +29,7 @@ We computed chemical fingerprints and molecular descriptors for 2,240 compounds 
 
 We processed compound-target relationships from BindingDB. We analyzed the distributions of binding affinity values among all known drug-target pairs from DrugBank (shown as red curves in the figure below), as compared to the distributions of binding affinity values among all compound-target pairs (shown as blue curves). We also labeled the first, second, and third quantiles of binding affinity values among all known drug-target pairs (shown as red dashed lines).
 
-![Distributions of binding affinity values](plot/target_binding_affinity/bindingdb_human_targets_distribution_compare.pdf)
+![Distributions of binding affinity values](plot/target_binding_affinity/bindingdb_human_targets_distribution_compare.png)
 
 We used the first quantile as the threshold for dichotomizing binding affinity values and generating datasets of compound-target relationships. Below are some basic summary statistics of the generated datasets. 
 
