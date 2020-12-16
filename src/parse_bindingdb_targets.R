@@ -6,9 +6,14 @@
 library(parallel);
 source("src/functions.R");
 
+## 0. Input arguments 
+binding_file	<- "downloads/bindingdb/BindingDB_All.tsv";
+id_map_file	<- "downloads/uniprot/uniprot-filtered-organism%3A%22Homo+sapiens+%28Human%29+%5B9606%5D%22+AND+review--.tab";
+output_file	<- "data/bindingdb_targets/bindingdb_human_targets";
+
 ## 1. Read in ligand-target interation data from BindingDB
 #  
-binding_df <- read.delim(file = "downloads/bindingdb/BindingDB_All.tsv", header = T, sep = "\t");
+binding_df <- read.delim(file = binding_file, header = T, sep = "\t");
 # select relevant columns 
 col_ss <- c("UniProt..SwissProt..Primary.ID.of.Target.Chain", "BindingDB.MonomerID", "Ki..nM.", "IC50..nM.", "Kd..nM.", "EC50..nM.");
 binding_df1 <- binding_df[,col_ss];
@@ -16,7 +21,7 @@ colnames(binding_df1) <- c("target_uniprot_id", "ligand_bindingdb_id", "ki", "ic
 
 ## 2. Perform quality control on ligand/target names
 # read in all human proteins from Uniprot (only keep the targets in human genome) 
-uniprot_df <- read.delim(file = "downloads/uniprot/uniprot-filtered-organism%3A%22Homo+sapiens+%28Human%29+%5B9606%5D%22+AND+review--.tab", header = T, sep = "\t");
+uniprot_df <- read.delim(file = id_map_file, header = T, sep = "\t");
 all_human_proteins <- as.character(uniprot_df$Entry);
 target_names <- as.character(binding_df1$target_uniprot_id);
 ahp_id <- which(target_names %in% all_human_proteins);
@@ -76,7 +81,7 @@ measure_type_affinities <- mapply(function(mt, mn){
 	# combine results of all targets 
 	measure_affinity <- do.call(rbind, measure_target_affinity);
 	# output
- 	output_file_name <- paste("data/bindingdb_targets/bindingdb_human_targets_", mn, ".tsv", sep = "");
+ 	output_file_name <- paste(output_file , "_", mn, ".tsv", sep = "");
 	write.table(measure_affinity, output_file_name, sep = "\t", quote = F, row.names = F, col.names = T);
 	
 	return(1);

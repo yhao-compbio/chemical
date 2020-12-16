@@ -1,0 +1,5 @@
+module add R
+Rscript	src/analyze_target_affinity.R	data/bindingdb_targets/bindingdb_human_targets_pEC50.tsv	pEC50	plot/target_binding_affinity/bindingdb_human_targets_pEC50	&
+Rscript	src/analyze_target_affinity.R	data/bindingdb_targets/bindingdb_human_targets_pIC50.tsv	pIC50	plot/target_binding_affinity/bindingdb_human_targets_pIC50	&
+Rscript	src/analyze_target_affinity.R	data/bindingdb_targets/bindingdb_human_targets_pKd.tsv	pKd	plot/target_binding_affinity/bindingdb_human_targets_pKd	&
+Rscript	src/analyze_target_affinity.R	data/bindingdb_targets/bindingdb_human_targets_pKi.tsv	pKi	plot/target_binding_affinity/bindingdb_human_targets_pKi	&

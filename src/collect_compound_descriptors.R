@@ -43,7 +43,7 @@ ft_files_fp <- t(ft_files_fp);
 dc_names <- get.desc.names(type = feature_type);
 # exclude some constitutional descriptors that were not computed
 if(feature_type == "constitutional"){
-	not_cal_type <- c("org.openscience.cdk.qsar.descriptors.molecular.AcidicGroupCountDescriptor")
+	not_cal_type <- c("org.openscience.cdk.qsar.descriptors.molecular.AcidicGroupCountDescriptor", "org.openscience.cdk.qsar.descriptors.molecular.FractionalCSP3Descriptor")
 	dc_names <- setdiff(dc_names, not_cal_type)
 }
 # exclude some topological descriptors that were not computed

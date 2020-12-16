@@ -38,4 +38,4 @@ commands <- mapply(function(a2f, of){
 	return(command);
 }, all_2d_files, output_files);
 # write shell scripts for jobs
-generate.parallel.bash.files(commands, 20, job_name, "src/run/");
+generate.parallel.bash.files(commands, 10, job_name, "src/run/");

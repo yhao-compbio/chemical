@@ -2,8 +2,37 @@
 
 ## OFFSIDES
 
-+ [`offsides_compounds/descriptor_combined/`](offsides_compounds/descriptor_combined/) and [`offsides_compounds/fingerprint_combined/`](offsides_compounds/fingerprint_combined/) contain combined molecular descriptors and chemical fingerprints, respectively, from multiple compounds. 
++ [`offsides_compounds/still_missing_compounds.txt`](offsides_compounds/still_missing_compounds.txt) contains names of 776 compounds from OFFSIDES with missing structure data from CHEMBL. [`offsides_compounds/still_missing_compounds_map.tsv`](offsides_compounds/still_missing_compounds_map.tsv) contains names of existing 2D/3D sdf files for these 776 compounds, which were manually downloaded from PubChem.
+
++ [`offsides_compounds/descriptor_combined/`](offsides_compounds/descriptor_combined/) contains computed molecular descriptors for 2,240 compounds from OFFSIDES.
+  + Five types of descriptors were computed:
+    + constitutional
+    + electronic
+    + geometrical
+    + hybrid
+    + topological
+
++ [`offsides_compounds/fingerprint_combined/`] (offsides_compounds/fingerprint_combined/) contains computed chemical fingerprints for 2,240 compounds from OFFSIDES. 
+  + Ten types of fingerprints were computed:
+    + circular
+    + estate
+    + extended 
+    + graph
+    + hybridization
+    + kr
+    + maccs
+    + pubchem
+    + shortestpath
+    + standard
 
 ## BindingDB
 
-+ [`bindingdb_targets/`](bindingdb_targets/) contains compound-target interations from BindingDB, in four types of measurements: [pEC50](bindingdb_targets/bindingdb_human_targets_pEC50.tsv), [pIC50](bindingdb_targets/bindingdb_human_targets_pIC50.tsv), [pKd](bindingdb_targets/bindingdb_human_targets_pKd.tsv), and [pKi](bindingdb_targets/bindingdb_human_targets_pKi.tsv).
++ [`bindingdb_targets/`](bindingdb_targets/) contains compound-target relationships from BindingDB.
+  + Relationships in four types of measurements were included: 
+    + pEC50 
+    + pIC50 
+    + pKd 
+    + pKi
+  + Relationships in two types of outcomes were included:
+    + continuous: the actual binding affinity value is given as the outcome (file name that does not contain 'binary') 
+    + binary: a binary value (0/1) is given as the outcome, indicting whether the actual binding affinity value passes a certain threshold. The threshold is defined as the first quantile of binding affinity values among all known drug-target pairs from DrugBank (file name that contains 'binary')

@@ -8,10 +8,14 @@ library(parallel);
 ## 0. Input arguments 
 Args		<- commandArgs(T);
 dimension	<- Args[1];     # 2D/3D
+# 
+binding_file	<- "downloads/BindingDB/BindingDB_All_terse";
+output_fd	<- "data/bindingdb_compounds/sdf/";
+output_map	<- "data/bindingdb_compounds/bindingdb";
 
 ## 1. Read in BindingDB
 # obtain input file name 
-input_file_name <- paste("downloads/BindingDB/BindingDB_All_terse_", dimension, ".sdf", sep = "");
+input_file_name <- paste(binding_file, "_", dimension, ".sdf", sep = "");
 bindingdb_lines <- readLines(input_file_name);
 
 ## 2. Obtain compound name/ID 
@@ -33,7 +37,7 @@ compound_write <- mcmapply(function(bli, bi, ci){
 	# range of the compound SDF lines
 	c_lines <- bindingdb_lines[bli:bi];
 	# write to output file
-	out_name <- paste("data/bindingdb_compounds/sdf/", ci, ".", dimension, ".sdf", sep = "");
+	out_name <- paste(output_fd, ci, ".", dimension, ".sdf", sep = "");
 	writeLines(c_lines, out_name);
 	
 	return(1);
@@ -43,6 +47,6 @@ compound_write <- mcmapply(function(bli, bi, ci){
 # output as a data frame (column 1: monomer ID, column 2: compound name) 
 names_df <- data.frame(compound_ids, compound_names);
 colnames(names_df) <- c("compound_bindingdb_id", "compound_name");
-out_map_name <- paste("data/bindingdb_compounds/bindingdb_", dimension, "_map.tsv", sep = "");
+out_map_name <- paste(output_map, "_", dimension, "_map.tsv", sep = "");
 write.table(names_df, out_map_name, sep = "\t", col.names = T, row.names = F, quote = F);
 

@@ -1,0 +1,10 @@
+./src/run/compute_fingerprints_offsides_add1.sh &
+./src/run/compute_fingerprints_offsides_add2.sh &
+./src/run/compute_fingerprints_offsides_add3.sh &
+./src/run/compute_fingerprints_offsides_add4.sh &
+./src/run/compute_fingerprints_offsides_add5.sh &
+./src/run/compute_fingerprints_offsides_add6.sh &
+./src/run/compute_fingerprints_offsides_add7.sh &
+./src/run/compute_fingerprints_offsides_add8.sh &
+./src/run/compute_fingerprints_offsides_add9.sh &
+./src/run/compute_fingerprints_offsides_add10.sh &

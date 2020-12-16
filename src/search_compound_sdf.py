@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # created by Yun Hao @MooreLab 2019
-# This script search CHEMBL for 2D/3D SDF files of compounds  
+# This script searches CHEMBL for 2D/3D SDF files of compounds  
 
 ## Module 
 import sys

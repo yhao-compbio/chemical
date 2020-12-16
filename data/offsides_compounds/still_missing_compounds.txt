@@ -1,0 +1,776 @@
+ergoloid mesylates, usp
+orgotein
+hypromellose
+dextran 70
+camphor, (-)-
+turpentine
+prednimustine
+polyvinyl alcohol
+insulin, pork
+epoetin alfa
+podophyllin
+yellow phenolphthalein
+calcium polycarbophil
+sesame oil
+thyrotropin alfa
+follicle stimulating hormone
+meningococcal group b vaccine
+benzoin resin
+fibrinolysis inhibitor
+saccharomyces boulardii
+poliovirus vaccine inactivated, type 3 (saukett)
+krill oil
+soybean oil
+hirudin
+ferrous asparto glycinate
+lanolin
+bismuth subcitrate
+glucarpidase
+hepatitis b immune globulin
+apple pectin
+aprotinin
+coal tar
+insulin glargine
+calamine
+pentastarch
+diethylene glycol
+reteplase
+parnaparin
+hypromellose 2208
+bacillus subtilis
+sodium stibogluconate
+dornase alfa
+drotrecogin alfa
+solfenacin
+phosphate ion
+lactobacillus reuteri
+mustard oil
+ethanolamine oleate
+alfalfa oil
+lysozyme
+oregano oil
+petrolatum
+nitroprusside
+diacetyl benzoyl lathyrol
+drug_concept_name
+gadobutrol
+belladonna leaf extract
+canakinumab
+melitracen
+lactobacillus
+glucomannan
+ambroxol-theophylline-7-acetate
+influenza virus vaccine, inactivated a-brisbane-59-2007, ivr-148 (h1n1) strain
+lactase
+silicon dioxide
+hawthorn berry
+chlorquinaldol
+chloride hexahydrate
+digoxin antibodies fab fragments
+omega-3 fatty acids
+zeaxanthin
+parsley oil
+botulism antitoxin a
+pipothiazine
+hydroxocobalamin
+dihydroxyaluminum sodium carbonate
+propane
+rho(d) immune globulin
+glatiramer
+palivizumab
+molgramostim
+albiglutide
+tinzaparin
+iodine i-131
+arnica extract
+orange oil
+pancreas extract
+cinnamon oil, leaf
+lactobacillus acidophilus
+cyanocobalamin co57
+fatty acids, omega-6
+pumpkin seed oil
+arnica montana extract
+factor viii
+phospholipids
+prednazoline
+gold
+calcium bicarbonate
+colloidal oatmeal
+certoparin
+peginterferon alfa-2b
+gemtuzumab ozogamicin
+fusafungin
+factor xiii
+interferon alfacon-1
+cuprous oxide
+proteins
+air
+tricaprylin
+lymphocyte immune globulin, anti-thymocyte globulin
+ethiodized oil
+ethylene oxide
+doxacurium
+human vaccinia immune globulin
+cyclofenil
+iron polysaccharide
+rasburicase
+aloe extract
+epidermal growth factor
+gadopentetate dimeglumine
+copper
+sodium gluconate
+mequinol
+yellow fever vaccine
+somatropin
+belladonna alkaloids
+tyloxapol
+samarium
+nivolumab
+peginterferon alfa-2a
+bee pollen
+lavender oil
+bcg, live, tice strain
+idursulfase
+carboxymethylcellulose
+timothy grass pollen extract
+clofoctol
+pegvisomant
+dextran 110
+chlorophyll
+iso-sulfan blue
+salmon oil
+grapefruit seed extract
+bifidobacterium longum
+ginkgo biloba leaf extract
+emu oil
+palifermin
+niaprazine
+chromic chloride
+iobenguane i-123
+milk thistle seed extract
+aldesleukin
+fish oils
+evening primrose oil
+triazulenone
+l1 protein, human papillomavirus type 58 vaccine
+rituximab
+tiropramide
+orange juice
+deanol
+potassium ascorbate
+beractant
+carbon black
+bismuth subcarbonate
+thymus oil
+brentuximab vedotin
+lutetium
+efinaconazole
+imiglucerase
+nadroparin
+saw palmetto extract
+sodium ferric gluconate complex
+calfactant
+lemon oil
+tocopheryl nicotinate, d-.alpha.
+tuberculin
+lactobacillus casei
+streptococcus pyogenes
+polysorbate 80
+ibritumomab tiuxetan
+menadiol
+cadexomer iodine
+lucinactant
+isopropyl unoprostone
+stannous fluoride
+oregano leaf oil
+meclofenoxate
+chitosan
+radium chloride ra-223
+icodextrin
+gamma-aminobutyrate
+fibrinogen
+bromine
+alexitol
+thyroid (usp)
+oprelvekin
+ferrous carbonate
+heparin
+hypericum extract
+basil oil
+streptokinase
+omalizumab
+zinc orotate
+human skin preparation
+omega-3 acid ethyl esters (usp)
+pertuzumab
+typhoid vaccine live ty21a
+magnesium glycinate
+mecobalamin
+adrenal cortex extract
+potassium sulfate
+dipipanone
+gadoterate meglumine
+metreleptin
+antilymphocyte immunoglobulin
+polygeline
+saccharomyces cerevisiae
+blueberry extract
+ethylene
+oxaliplatin
+ocriplasmin
+psyllium
+cascara sagrada
+paregoric
+garlic preparation
+silicon dioxide, colloidal
+zinc citrate
+arbekacin
+salmon calcitonin
+thyme oil
+lithium chloride
+kerosene
+sipuleucel-t
+lanthanum carbonate
+apricot kernel oil
+obinutuzumab
+alpha tocopherol
+romiplostim
+vitamin a
+polyethylene glycol 400
+alglucosidase alfa
+fe heme polypeptide
+oxerutins
+paraffin
+grapefruit oil
+ox bile extract
+eculizumab
+insulin lispro
+betaine, anhydrous
+potassium chlorate
+red yeast rice
+serratiopeptidase
+dihydroxyacetone
+peanut oil
+belimumab
+ethylene glycol
+2-hydroxyethyl methacrylate
+phosphorus 32
+cinnamon oil
+heme iron polypeptide
+asparaginase
+lixisenatide
+pomegranate juice
+sargramostim
+passiflora incarnata extract
+natalizumab
+interferon alfa-2b
+hetastarch
+belatacept
+immunoglobulin a
+lenograstim
+polihexanide
+thymopentin
+chondroitin sulfate (chicken)
+japanese encephalitis virus vaccine, inactivated
+crofelemer
+tesamorelin
+thallium
+potassium
+protamine sulfate (usp)
+aluminum magnesium silicate
+magnesium silicate
+chromium picolinate
+chenodeoxycholate
+lufenuron
+peruvian balsam
+protein c
+benorilate
+gadopentetate
+iron sucrose
+urofollitropin
+bis-peg-ppg-14-14 dimethicone
+asparaginase erwinia chrysanthemi
+polyethylene glycol 9000
+colesevelam
+succinylated gelatin
+vitamin k
+wheat dextrin
+influenza a virus
+tromethamine
+triethanolamine polypeptide oleate condensate
+glyceryl phosphate
+heparinoids
+grapefruit juice
+mercury
+sage oil
+filgrastim
+vitamin b complex
+ferumoxsil
+carbamide peroxide
+gelatin
+trimethylphloroglucinol
+amylases
+octylonium
+starch
+protein s
+streptodornase
+collagenase
+fenproporex
+rabies virus vaccine flury-lep strain
+lipegfilgrastim
+ginkgo biloba extract
+methoxy polyethylene glycol-epoetin beta
+agalsidase beta
+epoetin beta
+cromoglycate
+amphotericin b liposomal
+platinum
+chloroform
+tea leaf oil
+polyethylene glycol 3350
+undecylenate
+bifidobacterium lactis
+oat bran
+oil of ginger
+escherichia coli
+lithium sulfate
+viscum album leaf extract
+liraglutide
+samarium sm153
+fiber
+indium-111
+trofosfamide
+fluprednisolone
+lente insulin, beef
+potassium iodate
+maltodextrin
+oil of garlic
+rotavirus vaccine, live attenuated, g1p[8] human 89-12 strain
+hyaluronidase
+magnesium ascorbate
+castor oil
+ranibizumab
+cellulose
+trichloroacetaldehyde
+domiphen
+sodium sulfide
+helicidine
+haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine
+zinc picolinate
+grape seed
+pneumococcal capsular polysaccharide type 9v vaccine
+beta sitosterol
+theodrenaline
+thioctate
+rabies virus vaccine wistar strain pm-1503-3m (human), inactivated
+butane
+apazone
+factor viia
+valerian root extract
+belladonna extract, usp
+bifidobacterium infantis
+licorice extract
+interferon gamma-1b
+tocilizumab
+wheat germ oil
+olea europaea leaf extract
+tositumomab
+iron carbonyl
+lactobacillus rhamnosus gg
+thrombin
+coconut oil
+cod liver oil
+monascus purpureus west
+manganese chloride
+garlic powder
+ramucirumab
+tartrazine
+butcher's broom preparation
+factor vii
+meglumine antimoniate
+magnesium malate
+framycetin
+collagen
+tenecteplase
+antithrombin iii
+dulaglutide
+aloxiprin
+policosanol
+cobalt
+policresulen
+thyroglobulin
+hypericum oil
+dichloroacetate
+pancrelipase
+liquid petroleum
+pegaptanib
+regular insulin, human
+amber
+copper gluconate
+cobamamide
+diethylamine salicylate
+polyethylene glycol 1450
+aldioxa
+bile salts
+alteplase
+levorotatory alkaloids of belladonna
+monascus purpureus
+dimethicone
+st. john's wort extract
+chymopapain
+medrysone
+carbomer 1342
+hepatitis a vaccine (inactivated) strain hm175
+hydroxyethyl starch 130-0.4
+ipecac
+plantago seed
+vitamin e
+nattokinase
+urokinase
+trastuzumab
+boron
+insulin, regular, beef-pork
+witch hazel
+propylene
+alpha-amylase
+ustekinumab
+sodium pertechnetate tc 99m
+karaya gum
+polynoxylin
+iron
+ferric sulfate
+methylcellulose
+bismuth
+cytomegalovirus immune globulin
+von willebrand factor
+cafedrine
+agkistrodon piscivorus antivenin
+siltuximab
+gadoxetate
+safflower oil
+smallpox vaccine
+sulbenicillin
+sulbutiamine
+ceramide 2
+bifidobacterium bifidum
+hydroxypropylcellulose
+malic acid
+lymphocyte immune globulin
+carbomer
+milk thistle fruit
+borage oil
+poloxamer 188
+standardized senna concentrate
+green tea extract
+sennosides, usp
+apple cider vinegar
+anti-inhibitor coagulant complex
+somatrem
+interferon beta-1b
+hypericum perforatum leaf extract
+reviparin
+glycine zinc chelate
+aurothiomalate
+phosphorus
+gadolinium
+magnesium orotate
+streptococcus pneumoniae serotype 9v capsular antigen diphtheria crm197 protein conjugate vaccine
+lactobacillus bifidus
+prolactin
+gadobenate
+ferric citrate
+brown mixture
+tetanus immune globulin
+formalin
+insulin human, rdna origin
+ferrous fumarate
+ichthammol
+lutropin alfa
+grape seed extract
+vitamin b 12
+nesiritide
+bevacizumab
+tocopherol
+certolizumab pegol
+grape seed oil
+insulin, regular, pork
+hepatitis a vaccine, inactivated
+corticotropin
+cranberry juice
+estrogens, esterified (usp)
+nimorazole
+chymotrypsin
+ado-trastuzumab emtansine
+defibrotide
+lepirudin
+cytarabine liposome
+interferon alfa-n1
+polyethylene glycol 4000
+calcium alginate
+ubiquinone
+fosaprepitant
+casanthranol
+polystyrene sulfonate
+ferrous aspartate
+mebrofenin
+alglucerase
+nifuratel
+danaparoid
+ferrous bisglycinate
+propamidine
+darbepoetin alfa
+cedar leaf oil
+magnesium, chelated
+follitropin alfa
+inulin
+erwinia asparaginase
+oil of niaouli
+rimabotulinumtoxinb
+ferric ammonium citrate
+ferric carboxymaltose
+dalteparin
+indium
+interferon gamma-1a
+streptococcus pneumoniae serotype 7f capsular antigen diphtheria crm197 protein conjugate vaccine
+anakinra
+alpha-d-galactosidase enzyme
+rabbit skin extract
+milk thistle extract
+elosulfase alfa
+shark liver oil
+ferrous succinate
+turmeric oil
+ruscogenin
+cyclopenthiazide
+anethole
+neisseria meningitidis serogroup y oligosaccharide diphtheria crm197 protein conjugate vaccine
+sodium polystyrene sulfonate
+laronidase
+opium
+factor ix
+clove oil
+interferon alfa-2a
+mecasermin
+abciximab
+interferon beta-1a
+rilonacept
+alpha 1-antitrypsin
+milk thistle seed
+cranberry preparation
+l1 protein, human papillomavirus type 18 vaccine
+taliglucerase alfa
+orotic acid
+hepatitis b surface antigen vaccine
+purified protein derivative of tuberculin
+daclizumab
+gadodiamide
+bismuth subnitrate
+follitropin beta
+interleukin-3
+cinnamon bark
+parathyroid hormone
+spearmint oil
+pegaspargase
+insulin, isophane
+c1 esterase inhibitor
+denosumab
+typhoid vi polysaccharide vaccine, s typhi ty2 strain
+dextran 40
+vitis vinifera leaf extract
+gramicidin
+peppermint oil
+prothrombin
+terpin hydrate
+abatacept
+germanium
+halibut liver oil
+myrtol
+bcg vaccine
+alginic acid
+ginger root
+colestipol
+guar gum
+diloxanide
+magnesium aspartate
+polysaccharide iron complex
+mineral oil, light
+testosterone 17-phenylpropionate
+ferrous ascorbate
+gadoteridol
+dihematoporphyrin ether
+guaietolin
+denileukin diftitox
+chromium
+latex
+glycyrrhiza glabra extract
+spirulina
+bitolterol
+chlorophyllin copper complex
+royal jelly
+bcg, live, connaught strain
+infliximab
+sea salt
+human cord blood hematopoietic progenitor cell
+cayenne extract
+rabies immune globulin, human
+insulin, glulisine, human
+pine bark extract
+aflibercept
+efalizumab
+muromonab-cd3
+pramiverine
+pancreatin
+pentosan polysulfate
+pectin
+pyrethrum extract
+pegfilgrastim
+collagen, hydrolyzed
+insulin, zinc, human
+short ragweed pollen extract
+liver extract
+black cohosh extract
+tea tree oil
+gadoversetamide
+rice oil
+vasopressin (usp)
+insulin, regular, beef
+glycol salicylate
+ofatumumab
+barbexaclone
+amilomer
+etanercept
+lithium aspartate
+insulin, zinc, pork
+prunus armeniaca seed extract
+rabbit anti-human t-lymphocyte globulin
+magnesium amino acid chelate
+bupivacaine liposome
+neisseria meningitidis serogroup y capsular polysaccharide diphtheria toxoid protein conjugate vaccine
+hylan g-f 20
+basiliximab
+butamirate
+acai oil
+bromelains
+cetuximab
+lauromacrogols
+varicella-zoster virus vaccine live (oka-merck) strain
+almond oil
+velaglucerase alfa
+chamomile flower oil
+bifidobacterium animalis
+horse chestnut preparation
+aluminum aspirin
+polyestradiol
+gallium nitrate
+glucametacin
+insulin, aspart, human
+iotrolan
+horse antihuman thymocyte gamma globulin
+becaplermin
+pembrolizumab
+titanium dioxide
+papain
+linseed oil
+vedolizumab
+alibendol
+trypsin
+ethyl chloride
+fibrinogen concentrate (human)
+l1 protein, human papillomavirus type 6 vaccine
+providone-iodine
+ferrous gluconate
+formic acid
+zipeprol
+cinitapride
+galsulfase
+povidone-iodine
+ginko biloba leaf oil
+bismuth subgallate
+secukinumab
+potassium carbonate
+technetium 99m
+ferumoxytol
+iron-dextran complex
+ammonia
+yttrium
+loteprednol
+olive oil
+geranylgeranylacetone
+measles virus vaccine live, enders' attenuated edmonston strain
+ferrous glycine sulfate
+salix alba bark extract
+alefacept
+pomegranate seed oil
+lipase
+ispaghula husk
+sodium chlorite
+collagenase clostridium histolyticum
+metyrosine
+botulinum toxin type a
+ecallantide
+haemophilus b conjugate vaccine
+plasmin
+radium
+plasma protein fraction
+ferric pyrophosphate
+iodine povacrylex
+aluminum acetate
+magnesium sulfate heptahydrate
+polyethylene glycols
+spectinomycin
+mineral oil
+enoxaparin
+beclamide
+golimumab
+poloxamer 234
+5-hydroxytryptophan
+placebo
+albumin human, usp
+morphine liposomal
+adalimumab
+pegloticase
+attapulgite
+iodine-131-tositumomab
+pepsin a
+guaiacolsulfonic acid
+hypromellose 2910 (10000 mpa.s)
+bemiparin
+glucose oxidase
+licorice
+estrogens, conjugated (usp)
+hepatitis b virus
+zinc, chelated
+technetium tc 99m sestamibi
+synthetic conjugated estrogens, a
+immunoglobulin g
+bornaprine
+eucalyptus oil
+hydroxypropyl methylcellulose 2910
+peginterferon beta-1a
+aluminum
+bay leaf oil
+dalbavancin
+aluminum silicate
+polyethylene glycol 1000
+paramethasone
+poloxamer
+peginesatide
+ipilimumab
+chorionic gonadotropin
+antioxidant 119
+vitamin k 2
+poractant alfa
+manganese sulfate
+dolomite
+black currant oil
+panitumumab
+tetanus toxoid vaccine, inactivated
+vincristine liposome
+povidone
+synthetic conjugated estrogens, b
+glibornuride
+levomenthol
+alemtuzumab
+pegademase bovine
+batilol

@@ -19,7 +19,7 @@ desc_names <- lapply(desc_cates, function(dc){
 	dc_names <- get.desc.names(type = dc);
 	# some constitutional descriptors cannot be calculated
 	if(dc == "constitutional"){
-		not_cal_type <- c("org.openscience.cdk.qsar.descriptors.molecular.AcidicGroupCountDescriptor")
+		not_cal_type <- c("org.openscience.cdk.qsar.descriptors.molecular.AcidicGroupCountDescriptor", "org.openscience.cdk.qsar.descriptors.molecular.FractionalCSP3Descriptor")
 		dc_names <- setdiff(dc_names, not_cal_type)
 	}
 	# some topological descriptors cannot be calculated
