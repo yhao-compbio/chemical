@@ -12,7 +12,7 @@
     + hybrid
     + topological
 
-+ [`offsides_compounds/fingerprint_combined/`] (offsides_compounds/fingerprint_combined/) contains computed chemical fingerprints for 2,240 compounds from OFFSIDES. 
++ [`offsides_compounds/fingerprint_combined/`](offsides_compounds/fingerprint_combined/) contains computed chemical fingerprints for 2,240 compounds from OFFSIDES. 
   + Ten types of fingerprints were computed:
     + circular
     + estate
