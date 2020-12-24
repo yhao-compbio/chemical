@@ -4,26 +4,31 @@ Detailed documentation about the source dataset can be found [here](downloads/RE
 
 ## Chemical fingerprints & molecular descriptors: quantifying the structure of chemicals
 
-We computed chemical fingerprints and molecular descriptors for 2,240 compounds from OFFSIDES, and 778,046 compounds from BindingDB. Below are some basic summary statistics of the generated datasets.
+We computed chemical fingerprints and molecular descriptors for 2,240 compounds from OFFSIDES, and 778,046 compounds from BindingDB. The table below shows the number of features for different fingerprint types.
 
-| Group of structure features | Feature type | Number of features |
-| :------------- | :------------- | :------------- |
-| fingerprints | circular | 1,024 |
-| fingerprints | estate | 79 |
-| fingerprints | extended | 1,024 |
-| fingerprints | graph | 1,024 |
-| fingerprints | hybridization | 1,024 |
-| fingerprints | kr | 4,860 |
-| fingerprints | maccs | 166 |
-| fingerprints | pubchem | 881 |
-| fingerprints | shortestpath | 1,024 |
-| fingerprints | standard | 1,024 |
-| descriptors | constitutional | 16 |  
-| descriptors | electronic | 35 |
-| descriptors | geometrical | 49 |
-| descriptors | hybrid | 19 |
-| descriptors | topological | 160 |
-| descriptors | all combined | 279 |
+| Fingerprint type | Number of features |
+| :------------- | :------------- |
+| circular | 1,024 |
+| estate | 79 |
+| extended | 1,024 |
+| graph | 1,024 |
+| hybridization | 1,024 |
+| kr | 4,860 |
+| maccs | 166 |
+| pubchem | 881 |
+| shortestpath | 1,024 |
+| standard | 1,024 |
+
+The table below shows the number of features for different descriptor types.
+
+| Descriptor type | Number of features |
+| :------------- | :------------- |
+| constitutional | 16 |
+| electronic | 35 |
+| geometrical | 49 |
+| hybrid | 19 |
+| topological | 160 |
+| all combined | 279 |
 
 ## Compound-target relationships: dichotomizing binding affinity values 
 
@@ -31,22 +36,13 @@ We processed compound-target relationships from BindingDB. We analyzed the distr
 
 ![Distributions of binding affinity values](plot/target_binding_affinity/bindingdb_human_targets_distribution_compare.png)
 
-We used the first quantile as the threshold for dichotomizing binding affinity values and generating datasets of compound-target relationships. Below are some basic summary statistics of the generated datasets. 
+We used the first quantile as the threshold for dichotomizing binding affinity values and generating datasets of compound-target relationships. The table below shows the number of relationships for different binding affinity measurements. 
 
-| Type of binding affinity measurement | Type of relationships | Number of relationships |
-| :------------- | :------------- | :------------- |
-| pEC50 | positive | 44,771 |
-| pEC50 | negative | 32,030 |
-| pEC50 | all combined | 76,801 |
-| pIC50 | positive | 365,419 |
-| pIC50 | negative | 166,176 |
-| pIC50 | all combined | 531,595 |
-| pKd | positive | 7,909 |
-| pKd | negative | 11,767 |
-| pKd | all combined | 19,676 |
-| pKi | positive | 139,521 |
-| pKi | negative | 61,564 |
-| pKi | all combined | 201,085 |
+| | pEC50 | pIC50 | pKd | pKi | 
+| :------------- | :------------- | :------------- | :------------- | :------------- |
+| positive | 44,771 | 365,419 | 7,909 | 139,521 |
+| negative | 32,030 | 166,176 | 11,767 | 61,564 |
+| all combined | 76,801 | 531,595 | 19,676 | 201,085 |
 
 ## References
 
