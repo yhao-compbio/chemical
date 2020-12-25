@@ -1,6 +1,4 @@
-# This repository collects and processes structure data of chemical compounds.  
-
-Detailed documentation about the source dataset can be found [here](downloads/README.md). Detailed documentation about the code can be found [here](src/README.md). Detailed documentation about the generated dataset can be found [here](data/README.md). Below are some brief descriptions of the generated datasets.
+# The aim of this repository is to collect and process structure data of chemical compounds.  
 
 ## Chemical fingerprints & molecular descriptors: quantifying the structure of chemicals
 
@@ -43,6 +41,8 @@ We used the first quantile as the threshold for dichotomizing binding affinity v
 | positive | 44,771 | 365,419 | 7,909 | 139,521 |
 | negative | 32,030 | 166,176 | 11,767 | 61,564 |
 | all combined | 76,801 | 531,595 | 19,676 | 201,085 |
+
+Detailed documentation about the source dataset can be found at [`downloads/`](downloads/). Detailed documentation about the code can be found at [`src/`](src/). Detailed documentation about the generated dataset can be found at [`data/`](data/).
 
 ## References
 
