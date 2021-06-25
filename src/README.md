@@ -22,6 +22,8 @@
 
 + [`combine_descriptors.R`](combine_descriptors.R) combines different types of molecular descriptors into one single file. 
 
++ [`parse_tox21_structure.R`](parse_tox21_structure.R) parses chemical structure data of tox21 compounds to compute chemical fingerprints.  
+
 + [`functions.R`](functions.R) contains R functions required for other scripts in the folder. 
  
 ## Executable shell scripts

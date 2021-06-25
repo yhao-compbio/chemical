@@ -2,7 +2,7 @@
 
 ## Chemical fingerprints & molecular descriptors: quantifying the structure of chemicals
 
-We computed chemical fingerprints and molecular descriptors for 2,240 compounds from OFFSIDES, and 778,046 compounds from BindingDB. The table below shows the number of features for different fingerprint types.
+We computed chemical fingerprints and molecular descriptors for 2,240 compounds from OFFSIDES, 778,046 compounds from BindingDB, 8,541 compounds from Tox21. The table below shows the number of features for different fingerprint types.
 
 | Fingerprint type | Number of features |
 | :------------- | :------------- |

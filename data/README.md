@@ -36,3 +36,7 @@
   + Relationships in two types of outcomes were included:
     + continuous: the actual binding affinity value is given as the outcome (file name that does not contain 'binary') 
     + binary: a binary value (0/1) is given as the outcome, indicting whether the actual binding affinity value passes a certain threshold. The threshold is defined as the first quantile of binding affinity values among all known drug-target pairs from DrugBank (file name that contains 'binary')
+
+## Tox21
+
++ [`tox21_compounds/fingerprint_combined/`](tox21_compounds/fingerprint_combined/) contains computed chemical fingerprints for 8,541 compounds from Tox21. Ten types of fingerprints were computed, same as above.
