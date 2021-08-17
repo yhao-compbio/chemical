@@ -12,4 +12,8 @@
 
 ## DrugBank
 
-+ [The relationship file](drugbank/uniprot%20links.csv) contains compounds-targets mapping from [DrugBank](https://www.drugbank.ca/releases/5-1-7/downloads/target-all-uniprot-links). 
++ [The relationship file](drugbank/uniprot%20links.csv) contains compounds-targets mapping from [DrugBank](https://www.drugbank.ca/releases/5-1-7/downloads/target-all-uniprot-links).
+
+## ATC
+
++ [The mapping file](atc/ATC.csv) contains drug-ATC code mapping from [BioOntology](https://data.bioontology.org/ontologies/ATC/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv).
