@@ -17,3 +17,5 @@
 ## ATC
 
 + [The mapping file](atc/ATC.csv) contains drug-ATC code mapping from [BioOntology](https://data.bioontology.org/ontologies/ATC/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb&download_format=csv).
+
++ [The annotation file](atc/atc_annotation.tsv) contains annotations of ATC drug categories.
